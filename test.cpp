@@ -4,7 +4,17 @@ using namespace std;
 int main() {
     //cout << "Hello, world!";
 
+//input output
+    cout << "HEllo WORLD";
+    cout << "Concatenating strings and " << 123 << " with newline \n";
+    cout << "you can also end lines using endl" << endl;
+
+    //variables
+    
+
 //references
+
+    /*
     int number = 85;
     int& ref_num = number; //references number
     //must be initalized
@@ -32,4 +42,9 @@ int main() {
     int* pointer = nullptr;
 
     return 0;
+
+*/
+
+return 0;
 }
+
