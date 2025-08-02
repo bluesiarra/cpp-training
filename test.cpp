@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main() {
@@ -10,7 +11,28 @@ int main() {
     cout << "you can also end lines using endl" << endl;
 
     //variables
-    
+
+    int num;
+    num = 100;
+
+    int a = 1, b = 2; //dont write int twice
+
+    const int C_NUM = 67;
+
+    //types of variables
+    int integer = 868;
+    double pi = 3.14159; //can have up to 15 decimal digits
+
+    //typecasting
+    //you can convert a double to an int using (int)
+    //(type) value turns value into type
+    double x = 1.23;
+    int x_int = (int) x; //returns 1
+
+    char first_letter = 'a';
+    std::string fname = "john"; //must have string package
+    std::string lname = "adams";
+    std::string fullname = fname + lname;
 
 //references
 
