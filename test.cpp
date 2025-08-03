@@ -6,10 +6,14 @@ int main() {
     //cout << "Hello, world!";
 
 //input output
+/*
     cout << "HEllo WORLD";
     cout << "Concatenating strings and " << 123 << " with newline \n";
     cout << "you can also end lines using endl" << endl;
 
+
+    int in;
+    std::cin >> in; //get users input and stores it
     //variables
 
     int num;
@@ -36,7 +40,7 @@ int main() {
 
 //references
 
-    /*
+    
     int number = 85;
     int& ref_num = number; //references number
     //must be initalized
@@ -66,6 +70,40 @@ int main() {
     return 0;
 
 */
+
+
+//operators
+//post vs pre increment
+
+int x = 10;
+
+int y = --x; //x is first decremented to 9, and then assigned to y
+
+//x = 9, y = 9
+
+cout << x << ' ' << y << endl;
+int a = 10;
+int b = a--;//a is decremented to 9, but b is assigned to 10
+
+cout << a << " " << b << endl; //9 10
+
+//bitwise operators
+// << left shift
+// >> right shift
+// ~ NOT
+// & AND
+// | OR
+//^ XOR
+
+int m = 3; //0011
+int n = 2; //0010
+
+int ans1 = m << 2; //1100, = 12
+cout << ans1 << endl;
+int ans2 = m | n;
+cout << ans2 << endl; //0011 = 3
+
+
 
 return 0;
 }
